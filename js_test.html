@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script>
+function msg() {
+    alert("Hello world!");
+}
+
+function toggle(){
+	var txt = $("p").toggle();
+	//window.open("http://yahoo.com.tw");
+}
+</script>
+
+</head>
+<body>
+
+<form>
+  <input type="button" value="Click me" onclick="msg()">
+</form>
+
+<p>The button above activates a JavaScript when it is clicked.</p>
+<input type="button" value="Toggle me" onclick="toggle()"></input>
+
+</body>
+</html>
