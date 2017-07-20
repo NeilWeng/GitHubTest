@@ -1,6 +1,13 @@
-﻿//m1
+﻿//m4
+//m5
+//m6
+//m1
 //m2
 //m3
+//d1
+//d2
+//d3
+//d4
 var app = window.AddressSeleclList =
 {
     AdrressArray: [
